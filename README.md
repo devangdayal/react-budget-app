@@ -46,4 +46,23 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 
 1. **Set Your Budget:**
    - On the main page, you'll see your current budget displayed.
-   - Edit the budget by clicking on the "Budget" component and entering a new va
+   - Edit the budget by clicking on the "Budget" component and entering a new value.
+
+2. **Add Expenses:**
+   - Below the budget, you can add your expenses.
+   - Enter the name and cost of the expense and click "Add Expense" to include it in your budget.
+
+3. **Track Remaining Budget:**
+   - The "Remaining" component will dynamically update to show your remaining budget.
+   - The background color of the remaining budget will change based on whether you're under or over your budget.
+
+4. **Remove Expenses:**
+   - Each expense has a remove button. Click on it to remove the expense and see the updated remaining budget.
+
+## Contributing
+
+If you'd like to contribute to this project, feel free to open an issue or submit a pull request. Your feedback and contributions are highly appreciated!
+
+## License
+
+This project is licensed under the [Apache License](LICENSE).
