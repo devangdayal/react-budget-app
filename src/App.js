@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './App.css';
 //Code to import Budget.js
 import Budget from './components/Budget';
 
@@ -12,15 +12,13 @@ import ExpenseTotal from './components/ExpenseTotal';
 import ExpenseList from './components/ExpenseList';
 
 import AllocationForm from './components/AllocationForm';
-
-export const INR_SYMBOL = '₹';
-
+import CurrencyList  from './components/CurrencyList';
 
 const App = () => {
     return (
         <AppProvider>
-            <div className='container'>
-                <h1 className='mt-3'>Company's Budget Allocation</h1>
+            <div className='container mx-auto m-5'>
+                <h1 className='mt-3 mb-3'>Company's Budget Allocation</h1>
                 <div className='row mt-3'>
                     <div className='col-sm'>
                         <Budget />
@@ -30,6 +28,11 @@ const App = () => {
                     </div>
                     <div className='col-sm'>
                         <ExpenseTotal />
+                    </div>
+                  
+                    <div className='box col-sm'>
+                        <CurrencyList />
+                    
                     </div>
                 </div>
                 <h3 className='mt-3'>Allocation</h3>
